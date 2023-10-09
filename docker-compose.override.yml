@@ -1,0 +1,5 @@
+services:
+  maplestory:
+    restart: unless-stopped
+  db:
+    restart: unless-stopped
