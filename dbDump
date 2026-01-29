@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p anliting
+docker compose exec db mysqldump cosmic > anliting/dbDump.sql
